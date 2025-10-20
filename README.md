@@ -11,7 +11,7 @@ This repository contains Phoenix/Elixir learning projects from the Pragmatic Stu
 
 ### System Requirements
 
-**Note: These projects do not run natively on Windows. Windows users must use WSL (Windows Subsystem for Linux).**
+**Note for Windows users:** While Phoenix can run natively on Windows, WSL (Windows Subsystem for Linux) is strongly recommended for a smoother development experience and better compatibility with Elixir ecosystem tools.
 
 ### Required Software
 
@@ -45,9 +45,17 @@ sudo systemctl start postgresql
 # Visit https://nodejs.org or use a version manager like nvm
 ```
 
-#### Windows (WSL Required)
+#### Windows
+
+**Option 1: WSL (Recommended)**
 1. Install WSL2 with Ubuntu
 2. Follow the Linux installation steps above within WSL
+
+**Option 2: Native Windows**
+1. Install Elixir from [elixir-lang.org](https://elixir-lang.org/install.html#windows)
+2. Install PostgreSQL from [postgresql.org](https://www.postgresql.org/download/windows/)
+3. Install Node.js from [nodejs.org](https://nodejs.org/)
+4. Ensure you have a C compiler (Visual Studio Build Tools) for packages with native dependencies
 
 ### Getting Started
 
